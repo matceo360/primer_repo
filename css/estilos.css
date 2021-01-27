@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #000000;
+  background-image: linear-gradient(to top, purple, black); }
+
+.header__titulo {
+  overflow: hidden; }
+  .header__titulo h1 {
+    font-size: 60px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Roboto Mono', monospace;
+    transform: skewX(20deg);
+    background-image: linear-gradient(to top, purple, black); }
+
+#cuerpo1 {
+  background-image: url("../body1.jpg"); }
+
+#cuerpo2 {
+  background-image: url("../body2.jpg"); }
+
+#contenedor {
+  background-color: #F6E3CE; }
+
+.navegacion {
+  background-color: #ff6600;
+  text-align: center; }
+  .navegacion ul {
+    list-style-type: none; }
+
+.menu li {
+  position: relative;
+  display: inline-block; }
+  .menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-size: 150%; }
+    .menu li a:hover {
+      background-color: #000;
+      display: block; }
+
+.menu li:hover .submenu {
+  display: block; }
+
+.submenu {
+  position: absolute;
+  width: 100%;
+  display: none;
+  background-color: blue;
+  z-index: 1000000; }
+  .submenu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 150%; }
+
+#columnas {
+  font-size: 200%;
+  display: flex;
+  margin-top: 80px; }
+
+#columnas .body__columnas__textodescriptivo b {
+  color: red;
+  text-align: center;
+  font-size: 150%; }
+
+#columnas .body__columnas__textodescriptivo p {
+  text-align: center;
+  color: yellow;
+  font-size: 120%;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursive;
+  border-top: groove 10px red;
+  border-left: groove 10px red;
+  border-right: groove 10px red;
+  border-bottom: groove 10px red;
+  margin-top: 10px;
+  flex-direction: row;
+  width: 100%; }
+
+.body__videomoto iframe {
+  width: 80%;
+  height: 600px; }
+
+.foto_casco {
+  width: 80%;
+  float: right;
+  transform: skewY(10deg); }
+
+.video_casco iframe {
+  width: 80%;
+  height: 600px; }
+
+.columnas2 {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 50% 50%; }
+
+.tabla1 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  color: orange;
+  font-size: 150%; }
+
+.tabla2 {
+  text-align: center; }
+
+.nombre, legend {
+  color: #bbbbbb;
+  font-size: 150%; }
+
+#footer__imagen img {
+  width: 100%; }
