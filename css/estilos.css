@@ -78,16 +78,16 @@ body {
   font-size: 120%;
   text-transform: capitalize;
   font-family: 'Dancing Script', cursive;
-  border-top: groove 10px red;
-  border-left: groove 10px red;
-  border-right: groove 10px red;
-  border-bottom: groove 10px red;
+  border-top: groove 5px red;
+  border-left: groove 5px red;
+  border-right: groove 5px red;
+  border-bottom: groove 5px red;
   margin-top: 10px;
   flex-direction: row;
   width: 100%; }
 
 .body__videomoto iframe {
-  width: 80%;
+  width: 75%;
   height: 600px; }
 
 .foto_casco {
@@ -96,7 +96,7 @@ body {
   transform: skewY(10deg); }
 
 .video_casco iframe {
-  width: 80%;
+  width: 90%;
   height: 600px; }
 
 .columnas2 {
@@ -111,11 +111,18 @@ body {
   font-size: 150%; }
 
 .tabla2 {
+  text-align: center;
+  border-top: groove 5px red;
+  border-left: groove 5px red;
+  border-right: groove 5px red;
+  border-bottom: groove 5px red; }
+
+.formulario {
   text-align: center; }
 
 .nombre, legend {
   color: #bbbbbb;
   font-size: 150%; }
 
-#footer__imagen img {
+#footer__imagen {
   width: 100%; }
