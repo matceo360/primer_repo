@@ -11,6 +11,7 @@ html{
 body{
 	background-color:#000000;
 	background-image: linear-gradient( to top, purple, black);
+
 }
 .header__titulo{
 	overflow:hidden;
@@ -26,10 +27,10 @@ body{
 }
 
 #cuerpo1{
-	background-image: url("../body1.jpg");
+	background-image: url("../img/body1.jpg");
 }
 #cuerpo2{
-	background-image:url("../body2.jpg"); 
+	background-image:url("../img/body2.jpg"); 
 }
 
 #contenedor{
@@ -41,7 +42,7 @@ body{
 }
 
 .navegacion{
-	
+	 
 	background-color:#ff6600;
     text-align:center; 
 	ul{
@@ -78,7 +79,8 @@ body{
     width:100%;
     display:none;
     background-color:blue;
-    z-index:1000000; 
+    z-index:1000000;
+    padding:0; 
     li a{
 		display: block;
 		text-decoration:none;
@@ -120,12 +122,20 @@ body{
 	 
 }
 
+.body__videomoto{
+	display:flex; 
+}
 .body__videomoto iframe{
-
+	justify-content:center; 
 	width:75%;
 	height:$alto-video/2;
-	 
-}		
+	
+}	
+
+	
+
+
+
 .foto_casco{
 	width:80%;
 	float: right;
