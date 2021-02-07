@@ -41,52 +41,7 @@ body{
 	}
 }
 
-.navegacion{
-	 
-	background-color:#ff6600;
-    text-align:center; 
-	ul{
-		list-style-type:none;
-	
-	}
-}
-.menu li{
-	position: relative;
-	display:inline-block;
-	
-	 a{
-		display: block;
-		padding: 10px 20px;
-		color: white;
-		text-decoration: none;
-		color:white;
-		font-size:150%;
-		&:hover{
-			background-color:#000;
-			display:block;
-			
-		}
-	}	
 
-}
-.menu li:hover .submenu{
-	display:block;
-}	
-
-	
-.submenu{
-    position:absolute;
-    width:100%;
-    display:none;
-    background-color:blue;
-    z-index:1000000;
-    padding:0; 
-    li a{
-		display: block;
-		text-decoration:none;
-		font-size:150%;
-		
-	}
  }
  #columnas {
 	font-size:200%;
