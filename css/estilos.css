@@ -28,6 +28,14 @@ body {
 #contenedor {
   background-color: #F6E3CE; }
 
+.menu li a {
+  font-family: calibry;
+  font-size: 150%; }
+
+.menu li a:hover {
+  display: block;
+  background-color: blue; }
+
 #columnas {
   font-size: 200%;
   display: flex;
@@ -53,12 +61,11 @@ body {
   width: 100%; }
 
 .body__videomoto {
-  display: flex; }
-
-.body__videomoto iframe {
-  justify-content: center;
-  width: 75%;
-  height: 600px; }
+  display: flex;
+  justify-content: center; }
+  .body__videomoto iframe {
+    width: 75%;
+    height: 600px; }
 
 .foto_casco {
   width: 80%;

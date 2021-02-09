@@ -40,6 +40,15 @@ body{
 		background-color:orange;
 	}
 }
+.menu li a{
+	font-family:calibry; 
+	font-size:150%;  
+}
+.menu li a:hover{
+	display:block;
+	background-color:blue;
+}	
+
 
 
 
@@ -77,15 +86,16 @@ body{
 	 
 }
 
+
+	
 .body__videomoto{
-	display:flex; 
-}
-.body__videomoto iframe{
-	justify-content:center; 
+	display:flex;
+	justify-content:center;	  
+	iframe{
 	width:75%;
 	height:$alto-video/2;
-	
-}	
+	}
+}		
 
 	
 
@@ -124,7 +134,7 @@ body{
 	border-left:groove 5px red; 
 	border-right:groove 5px red;
 	border-bottom: groove 5px red;
-}
+}	
 .formulario{
 	text-align: center;
 }
