@@ -12,7 +12,7 @@ body {
 .header__titulo {
   overflow: hidden; }
   .header__titulo h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     color: yellow;
     font-family: 'Roboto Mono', monospace;
@@ -70,11 +70,14 @@ body {
 .foto_casco {
   width: 80%;
   float: right;
-  transform: skewY(10deg); }
+  transform: skewx(-5deg); }
 
-.video_casco iframe {
-  width: 90%;
-  height: 600px; }
+.video_casco {
+  display: flex;
+  justify-content: center; }
+  .video_casco iframe {
+    width: 90%;
+    height: 600px; }
 
 .columnas2 {
   display: grid;
